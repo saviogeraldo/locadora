@@ -53,9 +53,9 @@
             </div>
         </div>
         <div class="mb-3">
-            <button class="btn btn-primary" type="submit">
-                <i class="ph-duotone ph-floppy-disk"></i> Salvar
-            </button>
+            <div class="mb-3">
+                <button class="btn btn-success bi bi-floppy-fill" type="submit"> Salvar</button>
+            </div>
         </div>
     </form>
 </div>
