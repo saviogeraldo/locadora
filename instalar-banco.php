@@ -2,7 +2,7 @@
 const SERVIDOR = "localhost";
 const USUARIO = "root";
 const SENHA = "";
-const BANCO = "dblocadora";
+const BANCO = "dblocadora2";
 
 $conexao = mysqli_connect(SERVIDOR, USUARIO, SENHA) or die("Erro ao conectar ao servidor. " . mysqli_connect_error());
 

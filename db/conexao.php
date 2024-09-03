@@ -6,3 +6,5 @@ const SENHA = "";
 const BANCO = "dblocadora2";
 
 $conexao = mysqli_connect(SERVIDOR, USUARIO, SENHA, BANCO);
+
+?>
