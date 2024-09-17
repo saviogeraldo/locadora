@@ -1,7 +1,7 @@
 <h2>Inserir Categoria</h2>
+
 <?php
 $nomeCategoria = $_POST["nomeCategoria"];
-
 
 $sql = "INSERT INTO tbcategorias (
     nomeCategoria
@@ -10,11 +10,12 @@ $sql = "INSERT INTO tbcategorias (
     '$nomeCategoria'
     )
     ";
-    $rs = mysqli_query($conexao,$sql);
+    
+$rs = mysqli_query($conexao,$sql);
 
-    if($rs){
-        echo "<p>Registro inserido com sucesso</p>";
-    }else{
-        echo "<p>Erro ao inserir</p>";
-    }
+if($rs){
+    echo "<p>Registro inserido com sucesso</p>";
+}else{
+    echo "<p>Erro ao inserir</p>";
+}
 ?>
